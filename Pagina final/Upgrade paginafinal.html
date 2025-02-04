@@ -1,0 +1,137 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link rel="stylesheet" href="CSS PAGINA UPGRADE.css">
+  <title>
+  Upgrade
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  
+<script>
+    function mostrarBarraCarga() {
+        const loadingBar = document.getElementById("loadingBar");
+        loadingBar.style.display = "block"; 
+
+        
+        setTimeout(() => {
+            loadingBar.style.display = "none"; 
+        }, 2000); 
+    }
+
+    function cambiarTexto() {
+        mostrarBarraCarga(); 
+        document.getElementById("miTexto").innerText = "75,78%";
+    }
+
+    function cambiarTexto2() {
+        mostrarBarraCarga(); 
+        document.getElementById("miTexto").innerText = "50,52%";
+    }
+    function cambiarTexto3() {
+        mostrarBarraCarga(); 
+        document.getElementById("miTexto").innerText = "20,52%";
+    }
+    function cambiarTexto4() {
+        mostrarBarraCarga(); 
+        document.getElementById("miTexto").innerText = "5,52%";
+    }
+    function cambiarTexto5() {
+        mostrarBarraCarga(); 
+        document.getElementById("miTexto").innerText = "3,52%";
+    }
+    
+</script>
+ </head>
+ <nav>
+    <input type="checkbox" id="toggle">
+    <div class="logo">Skin.</div>
+    <ul class="list">
+        <li><a href="Pagina final.html">INICIO</a></li>
+        <li><a href="file:///C:/Users/2%20SMR/Desktop/Nueva%20carpeta/Upgrade%20paginafinal.html">UPGRADE</a></li>
+        <li><a href="#">MISIONS</a></li>
+        <li><a href="#">EVENT</a></li>
+        <li><a href="#">BATLES</a></li>
+    </ul>
+    <label for="toggle" class="barra-iconos">
+        <div class="linea"></div>
+        <div class="linea"></div>
+        <div class="linea"></div>
+    </label>
+</nav>
+ <body>
+    
+    <div class="container">
+        <div class="loading-bar" id="loadingBar"></div>
+        <div class="hexagon">
+            <div class="hexagon-content">
+                <h1 id="miTexto">0.000 %</h1>
+                <p>PROBABILIDAD ARRIESGADA</p>
+            </div>
+        </div>
+        
+     </div>
+   <div class="info">
+   
+   </div>
+   <div class="buttons">
+    <button class="button">
+     ALEATORIO
+    </button>
+    <button class="button">
+     SELECCIONAR TODO
+    </button>
+   </div>
+
+</body>
+<body class="body2">
+    
+
+   <div class="selection">
+    <div>
+        <p>
+            Selecciona el artículo que deseas mejorar
+           </p>
+     <img alt="Left decorative image" height="100" src="https://d2d9vfag1luski.cloudfront.net/783bf0e5-c67f-4a2e-99b2-f8bdd29cd3cf-front@2x.webp" width="100"/>
+     
+    </div>
+    <div>
+        <p>
+            Selecciona el artículo que deseas obtener
+           </p>
+     <img alt="Right decorative image" height="100" src="https://p3d.in/model_data/snapshot/MUfMR" width="100"/>
+     
+    </div>
+   </div>
+   <div class="footer">
+    <div class="buttons">
+     <button class="button">
+      Nada seleccionado
+     </button>
+     <button class="button">
+      MEJORAR ARTÍCULOS
+     </button>
+    </div>
+    <div class="multipliers">
+     
+        <button class="multiplier"onclick="cambiarTexto()">
+            1.5x
+        </button>
+        <button class="multiplier"onclick="cambiarTexto2()">
+            2x
+        </button>
+        <button class="multiplier"onclick="cambiarTexto3()">
+            5x
+        </button>
+        <button class="multiplier"onclick="cambiarTexto4()">
+            10x
+       </button>
+       <button class="multiplier"onclick="cambiarTexto5()">
+            20x
+       </button>
+    </div>
+   </div>
+  </div>
+</body>
+
+</html>
